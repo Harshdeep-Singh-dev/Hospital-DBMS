@@ -1,0 +1,43 @@
+QUERY: SELECT Medicine WHERE Patient = Benjamin Shaw
+RESULT:
+- Omeprazole
+----------------------------------------
+QUERY: SELECT Medicine WHERE Pateint = Benjamin Shaw
+RESULT:
+No matching records found.
+----------------------------------------
+QUERY: SELECT Medicine WHERE Patient = Elijah Lowe
+RESULT:
+- Metformin
+----------------------------------------
+QUERY: SELECT Patient WHERE Medicine = Losartan
+RESULT:
+- Logan Bryant
+- Chloe Barrett
+- Victoria Nash
+- Levi McBride
+- Lucy Wakefield
+- Charles Lang
+- Aria Barrera
+- Paisley Robles
+- Kylie Lockett
+- Valeria Key
+- Malcolm Dalton
+- Colton Newell
+- Brayden Bowers
+- Julien Rosales
+- Marcos Brower
+- Maren Heller
+- Indigo Blue
+- Braelyn Ochoa
+- Oaklyn Peoples
+- Nola Monaghan
+----------------------------------------
+QUERY: SELECT Medicine WHERE patient = Charlotte Bishop
+RESULT:
+No matching records found.
+----------------------------------------
+QUERY: SELECT Medicine WHERE Patient = Benjamin Shaw
+RESULT:
+- Omeprazole
+----------------------------------------
